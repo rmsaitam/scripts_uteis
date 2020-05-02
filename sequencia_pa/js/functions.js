@@ -4,7 +4,6 @@ $( document ).ready(function() {
         var a1 = $("#a1").val();
         var r  = $("#r").val();
         var n  = $("#n").val();
-        console.log('a1='+a1+'r='+r+'n='+n);
         var seq = ' ';
         
         if(a1 == '' || r == '' || n == '') {
