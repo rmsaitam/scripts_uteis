@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    // $('#btn_calcular').click(function(){
     $('#converte_para_temperatura').on('change', function(){
         var temperatura = $("#temperatura").val();
         var converte_para_temperatura = $("#converte_para_temperatura").val();
