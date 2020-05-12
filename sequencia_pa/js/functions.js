@@ -26,11 +26,11 @@ $( document ).ready(function() {
         }
         else {
              //an = a1 + (n-1)*r 
-             an = parseFloat(a1) + parseInt((n-1)*r);
+             an = parseFloat(a1) + parseInt((n-1)*parseFloat(r));
              //Sn = ((a1 + an)*n )/2
              Sn = ((parseFloat(a1) + parseFloat(an)) * parseInt(n))/2;
 
-            for(var i=a1; i<=an; i=parseInt(i)+parseInt(r)) {
+            for(var i=parseFloat(a1); i<=an; i=parseFloat(i)+parseFloat(r)) {
                 seq = seq +i+ ' ';
             }
     

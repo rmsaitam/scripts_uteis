@@ -28,9 +28,9 @@ $( document ).ready(function() {
              //an = a1*(q^(n-1))
              an = parseFloat(a1) * parseFloat(Math.pow(q, parseInt((n-1))));
              //Sn = a1*(q^n - 1) / (q-1)
-             Sn =  (parseFloat(a1) * parseFloat(Math.pow(q, n) -1) ) / parseFloat((q-1));
+             Sn =  (parseFloat(a1) * parseFloat(Math.pow(parseFloat(q), parseInt(n)) -1) ) / parseFloat((q-1));
     
-            for(var i=a1; i<=an; i=i*q) {
+            for(var i=parseFloat(a1); i<=parseFloat(an); i=parseFloat(i)*parseFloat(q)) {
                 seq = seq +i+ ' ';
             }
         
