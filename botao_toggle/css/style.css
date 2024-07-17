@@ -1,0 +1,13 @@
+.dark{
+    background:#000;
+    color:#fff;
+}
+    
+.light{
+    background:#fff;
+    color:#4b4b4b;
+}
+
+p {
+    text-align: justify;
+}
